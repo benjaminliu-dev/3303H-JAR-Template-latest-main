@@ -1,0 +1,12 @@
+/bin
+compile_commands.json
+.js
+.html
+.css
+/build
+
+/.site
+/.github
+
+/c_cpp_properties.json/settings.json/vex_project_settings.json/
+.vsc*
