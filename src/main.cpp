@@ -254,7 +254,7 @@ void leftpush() {
   chassis.turn_to_angle(-32.1-106.5);
   LeftDriveSmart.setVelocity(100, percent);
   RightDriveSmart.setVelocity(100, percent);
-  chassis.drive_distance(41.7);
+  chassis.drive_distance(40.7);
   chassis.turn_to_angle(-180);
   //goes to loader
   intakeMotor.spin(forward, 100, percent);
@@ -370,7 +370,7 @@ void rightpush() {
   chassis.turn_to_angle(32.1+106.5);
   LeftDriveSmart.setVelocity(100, percent);
   RightDriveSmart.setVelocity(100, percent);
-  chassis.drive_distance(41.7);
+  chassis.drive_distance(40.5);
   chassis.turn_to_angle(180);
   //goes to loader
   intakeMotor.spin(forward, 100, percent);
